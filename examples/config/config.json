@@ -1,0 +1,6 @@
+{
+  "ROUTES_FILE":      "config/routes.json",
+  "CONTROLLERS_PATH": "controllers",
+  "TEMPLATES_PATH":   "templates",
+  "LOGS_PATH":        "var/logs"
+}

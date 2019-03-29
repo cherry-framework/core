@@ -1,0 +1,7 @@
+{
+  "homepage": {
+    "path": "/",
+    "method": "GET",
+    "action": "Cherry\\Controller\\DefaultController::index"
+  }
+}

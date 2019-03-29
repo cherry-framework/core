@@ -1,0 +1,29 @@
+{
+    "name": "cherry-project/core",
+    "description": "Core for Cherry-project",
+    "type": "library",
+    "keywords": ["cherry","core"],
+    "homepage": "https://github.com/ABGEO07/cherry-core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ABGEO",
+            "email": "takalandzet@gmail.com",
+            "homepage": "http://www.abgeo.ga",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "cherry-project/router": "dev-master",
+        "cherry-project/templater": "dev-master",
+        "cherry-project/logger": "dev-master",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cherry\\": "Cherry/"
+        }
+    }
+}
