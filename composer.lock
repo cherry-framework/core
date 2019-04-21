@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fa85d6bcfe3a8c64e60d3171ee456ef",
+    "content-hash": "6268ca94052b14341fc7e754b87cec61",
     "packages": [
         {
             "name": "cherry-project/logger",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-logger.git",
-                "reference": "0fcb09ad1415d5fc0915304097fcd2e8e06bda14"
+                "url": "https://github.com/cherry-framework/logger.git",
+                "reference": "77be34267d2fec99e0ae62b94ba914e032ab3ac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-logger/zipball/0fcb09ad1415d5fc0915304097fcd2e8e06bda14",
-                "reference": "0fcb09ad1415d5fc0915304097fcd2e8e06bda14",
+                "url": "https://api.github.com/repos/cherry-framework/logger/zipball/77be34267d2fec99e0ae62b94ba914e032ab3ac1",
+                "reference": "77be34267d2fec99e0ae62b94ba914e032ab3ac1",
                 "shasum": ""
             },
             "require": {
@@ -48,19 +48,19 @@
                 "cherry",
                 "logging"
             ],
-            "time": "2019-03-05T17:57:31+00:00"
+            "time": "2019-02-28T12:50:57+00:00"
         },
         {
             "name": "cherry-project/request",
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-request.git",
+                "url": "https://github.com/cherry-framework/request.git",
                 "reference": "83e3a4929b70b40afb1c45dec11415d412041dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-request/zipball/83e3a4929b70b40afb1c45dec11415d412041dfd",
+                "url": "https://api.github.com/repos/cherry-framework/request/zipball/83e3a4929b70b40afb1c45dec11415d412041dfd",
                 "reference": "83e3a4929b70b40afb1c45dec11415d412041dfd",
                 "shasum": ""
             },
@@ -98,12 +98,12 @@
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-response.git",
+                "url": "https://github.com/cherry-framework/response.git",
                 "reference": "3ec39fa1ac828162e574b55a945b3228cfb19ddf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-response/zipball/3ec39fa1ac828162e574b55a945b3228cfb19ddf",
+                "url": "https://api.github.com/repos/cherry-framework/response/zipball/3ec39fa1ac828162e574b55a945b3228cfb19ddf",
                 "reference": "3ec39fa1ac828162e574b55a945b3228cfb19ddf",
                 "shasum": ""
             },
@@ -138,15 +138,15 @@
         },
         {
             "name": "cherry-project/router",
-            "version": "dev-master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-router.git",
+                "url": "https://github.com/cherry-framework/router.git",
                 "reference": "28292277f7930f9a42a8242cc82d2e7c2a9d4f0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-router/zipball/28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
+                "url": "https://api.github.com/repos/cherry-framework/router/zipball/28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
                 "reference": "28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
                 "shasum": ""
             },
@@ -183,15 +183,15 @@
         },
         {
             "name": "cherry-project/templater",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-templater.git",
+                "url": "https://github.com/cherry-framework/templater.git",
                 "reference": "323b4f0278c32e404c0e893ded8984fef5d11bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-templater/zipball/323b4f0278c32e404c0e893ded8984fef5d11bed",
+                "url": "https://api.github.com/repos/cherry-framework/templater/zipball/323b4f0278c32e404c0e893ded8984fef5d11bed",
                 "reference": "323b4f0278c32e404c0e893ded8984fef5d11bed",
                 "shasum": ""
             },
@@ -287,12 +287,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8"
+                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
-                "reference": "3e01bdad3e18354c3dce54466b7fbe33a9f9f7f8",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
+                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
                 "shasum": ""
             },
             "require": {
@@ -327,7 +327,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2018-06-11T23:09:50+00:00"
+            "time": "2019-04-07T13:18:21+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -904,12 +904,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "aed4efca869c86f7e118e47120ae18a2e8aac944"
+                "reference": "568609da42870c317dae81157a9db4cd3848e5af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/aed4efca869c86f7e118e47120ae18a2e8aac944",
-                "reference": "aed4efca869c86f7e118e47120ae18a2e8aac944",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/568609da42870c317dae81157a9db4cd3848e5af",
+                "reference": "568609da42870c317dae81157a9db4cd3848e5af",
                 "shasum": ""
             },
             "require": {
@@ -952,7 +952,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "8.1-dev"
+                    "dev-master": "8.2-dev"
                 }
             },
             "autoload": {
@@ -978,7 +978,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-03-27T15:11:08+00:00"
+            "time": "2019-04-20T07:57:03+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1609,16 +1609,16 @@
         },
         {
             "name": "theseer/tokenizer",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "cb2f008f3f05af2893a87208fe6a6c4985483f8b"
+                "reference": "1c42705be2b6c1de5904f8afacef5895cab44bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/cb2f008f3f05af2893a87208fe6a6c4985483f8b",
-                "reference": "cb2f008f3f05af2893a87208fe6a6c4985483f8b",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/1c42705be2b6c1de5904f8afacef5895cab44bf8",
+                "reference": "1c42705be2b6c1de5904f8afacef5895cab44bf8",
                 "shasum": ""
             },
             "require": {
@@ -1645,7 +1645,7 @@
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
-            "time": "2017-04-07T12:08:54+00:00"
+            "time": "2019-04-04T09:56:43+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -1702,15 +1702,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "cherry-project/router": 20,
-        "cherry-project/templater": 20,
-        "cherry-project/logger": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "ext-json": "*"
     },
     "platform-dev": []
 }
