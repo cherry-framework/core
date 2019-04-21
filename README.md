@@ -11,7 +11,7 @@ The Cherry-project Core
 
 This is core for Cherry-Project that contains Cherry [Request](https://github.com/ABGEO07/cherry-request),
 [Response](https://github.com/ABGEO07/cherry-response), [Router](https://github.com/ABGEO07/cherry-router),
-[Templater](https://github.com/ABGEO07/cherry-templater) and [Logger](https://github.com/ABGEO07/cherry-logger).
+and [Templater](https://github.com/ABGEO07/cherry-templater).
 
 In root of your application you must define main file and call application Core Kernel
 and Router classes:
