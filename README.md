@@ -1,26 +1,29 @@
 # Cherry-Core
 The Cherry-project Core
 
-[![GitHub license](https://img.shields.io/github/license/abgeo07/cherry-core.svg)](https://github.com/ABGEO07/cherry-core/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/cherry-framework/core.svg)](https://github.com/cherry-framework/core/blob/master/LICENSE)
 
-[![GitHub release](https://img.shields.io/github/release/abgeo07/cherry-core.svg)](https://github.com/ABGEO07/cherry-core/releases)
+[![GitHub release](https://img.shields.io/github/release/cherry-framework/core.svg)](https://github.com/cherry-framework/core/releases)
 
-[![Packagist Version](https://img.shields.io/packagist/v/cherry-project/core.svg "Packagist Version")](https://packagist.org/packages/cherry-core/request "Packagist Version")
+[![Packagist Version](https://img.shields.io/packagist/v/cherry-project/core.svg "Packagist Version")](https://packagist.org/packages/cherry-project/core "Packagist Version")
 
 ------------
 
 This is core for Cherry-Project that contains Cherry [Request](https://github.com/ABGEO07/cherry-request),
 [Response](https://github.com/ABGEO07/cherry-response), [Router](https://github.com/ABGEO07/cherry-router),
-[Templater](https://github.com/ABGEO07/cherry-templater) and [Logger](https://github.com/ABGEO07/cherry-logger).
+and [Templater](https://github.com/ABGEO07/cherry-templater).
 
-In root of your application you must define main file and call application Core Kernel class:
+In root of your application you must define main file and call application Core Kernel
+and Router classes:
 
 ```php
-<?php
-
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use Cherry\Routing\Router;
+
 $kernel = new Cherry\Kernel(__DIR__);
+
+$router = new Router();
 ```
 
 `Kernel` class takes only one argument - your application root path.

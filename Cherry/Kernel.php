@@ -13,8 +13,6 @@
 
 namespace Cherry;
 
-use Cherry\Routing\Router;
-
 /**
  * Application Kernel class.
  *
@@ -28,9 +26,6 @@ class Kernel
 {
     private $_appRoot;
 
-    public $router;
-    public $logger;
-
     /**
      * Kernel constructor.
      *
@@ -42,20 +37,7 @@ class Kernel
 
         $this->_appRoot = __ROOT__;
 
-        $this->run();
-    }
-
-    /**
-     * Run application.
-     *
-     * @return void
-     */
-    public function run()
-    {
         $this->_readConfig();
-
-        $this->router = new Router();
-        $this->logger = new Logger('app', LOGS_PATH);
     }
 
     /**
