@@ -1,5 +1,9 @@
 # Cherry-core Changelog
 
+## [v1.6.0](https://github.com/cherry-framework/core/releases/tag/v1.6.0 "v1.6.0") (2019-05-04)
+
+- Update to new Cherry [Router](https://github.com/cherry-framework/router) version.
+
 ## [v1.5.0](https://github.com/cherry-framework/core/releases/tag/v1.5.0 "v1.5.0") (2019-04-21)
 
 - Cherry [Router](https://github.com/cherry-framework/router) and  [Logger](https://github.com/cherry-framework/logger)
