@@ -60,7 +60,7 @@ config/
 
 Controller is a simple PHP class that contains public methods mapped on route:
 ```
-"action": "Cherry\\Controller\\DefaultController::index"
+"action": "DefaultController::index"
 ```
 
 Every method returns Cherry\HttpUtils\Response object.

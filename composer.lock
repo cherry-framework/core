@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0399edc1bf53e4cac50bc5102c026f6",
+    "content-hash": "20ed1659470a3c1ec2ce0eba814d3006",
     "packages": [
         {
             "name": "cherry-project/request",
@@ -94,20 +94,20 @@
         },
         {
             "name": "cherry-project/router",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cherry-framework/router.git",
-                "reference": "28292277f7930f9a42a8242cc82d2e7c2a9d4f0d"
+                "reference": "d27010659c31c3288c72ce5fa58c7a79dffeedf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cherry-framework/router/zipball/28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
-                "reference": "28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
+                "url": "https://api.github.com/repos/cherry-framework/router/zipball/d27010659c31c3288c72ce5fa58c7a79dffeedf3",
+                "reference": "d27010659c31c3288c72ce5fa58c7a79dffeedf3",
                 "shasum": ""
             },
             "require": {
-                "cherry-project/request": "v1.0.1",
+                "cherry-project/request": "1.0.1",
                 "ext-json": "*",
                 "php": ">=5.6.0"
             },
@@ -130,12 +130,12 @@
                 }
             ],
             "description": "Cherry-project Router",
-            "homepage": "https://github.com/ABGEO07/cherry-router",
+            "homepage": "https://github.com/cherry-framework/router",
             "keywords": [
                 "cherry",
                 "router"
             ],
-            "time": "2019-03-28T20:22:13+00:00"
+            "time": "2019-05-04T15:23:06+00:00"
         },
         {
             "name": "cherry-project/templater",
