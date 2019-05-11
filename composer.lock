@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20ed1659470a3c1ec2ce0eba814d3006",
+    "content-hash": "db454697960506cb0d76eb65b85c8260",
     "packages": [
         {
             "name": "cherry-project/request",
@@ -139,16 +139,16 @@
         },
         {
             "name": "cherry-project/templater",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cherry-framework/templater.git",
-                "reference": "323b4f0278c32e404c0e893ded8984fef5d11bed"
+                "reference": "cd454f972ac23f74b388bef9895c5f86f6574212"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cherry-framework/templater/zipball/323b4f0278c32e404c0e893ded8984fef5d11bed",
-                "reference": "323b4f0278c32e404c0e893ded8984fef5d11bed",
+                "url": "https://api.github.com/repos/cherry-framework/templater/zipball/cd454f972ac23f74b388bef9895c5f86f6574212",
+                "reference": "cd454f972ac23f74b388bef9895c5f86f6574212",
                 "shasum": ""
             },
             "require": {
@@ -179,7 +179,7 @@
                 "cherry",
                 "templating"
             ],
-            "time": "2019-03-29T08:32:17+00:00"
+            "time": "2019-05-11T18:55:55+00:00"
         }
     ],
     "packages-dev": [],
